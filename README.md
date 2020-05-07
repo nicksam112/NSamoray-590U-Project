@@ -1,5 +1,7 @@
 # NSamoray-590U-Project
 
+URL for this project: https://github.com/nicksam112/NSamoray-590U-Project
+
 Videos demo-ing this project can be seen here: https://drive.google.com/drive/folders/1VcMXyK1JLSOkns_dIQr3I-IKI6rEvS26?usp=sharing
 
 ## Android
