@@ -30,7 +30,11 @@ This folder contains the scripts used to develop and train the cough detection m
 Script extracts audio samples from the given youtube videos and the given csv files. These csv files are taken from Google's Audio dataset: https://research.google.com/audioset/. The files are saved as mp3's by default.
 
 #### extract_spectrograms
-Script extract spectrograms from audio samples. Self explanatory.
+Script extract spectrograms from audio samples. Self explanatory. Example of a generated spectrogram below.
+
+![spec](https://github.com/nicksam112/NSamoray-590U-Project/blob/master/Photos/spec.png)
 
 #### audio_model
 Contains all the code needed to setup and train a MobileNet model on spectrogram data produced by the above scripts. We were able to achieve accuracy of ~90% on a validation dataset with just the balanced labels from the Google AudioSet. Model is then saved as an h5 file, which can then be converted to a tflite file. Ultimately, this isn't the model I ended up using as I wasn't able to successfully convert audio to spectragrams with keras. Final approach taken was a modified version of this link: https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md
+
+![spec](https://github.com/nicksam112/NSamoray-590U-Project/blob/master/Photos/model.PNG)
